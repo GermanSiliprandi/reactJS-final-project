@@ -9,9 +9,15 @@ export const NavBar = () => {
 				<p>Spartan Hard Store</p>
 			</div>
 			<ul>
-				<li>Notebooks</li>
-				<li>Teclados</li>
-				<li>Mouse</li>
+				<li>
+					<a href="#">Notebooks</a>
+				</li>
+				<li>
+					<a href="#">Teclados</a>
+				</li>
+				<li>
+					<a href="#">Mouse</a>
+				</li>
 			</ul>
 			<button>Log In</button>
 		</nav>

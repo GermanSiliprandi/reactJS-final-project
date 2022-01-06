@@ -20,10 +20,16 @@
 }
 .header_nav ul {
 	display: flex;
-	text-decoration: none;
-	list-style: none;
 	justify-content: space-between;
 	width: 50vw;
+}
+.header_nav ul li {
+	text-decoration: none;
+	list-style: none;
+}
+.header_nav ul li a {
+	text-decoration: none;
+	color: rgb(244, 246, 255);
 }
 .header_nav img {
 	height: 50px;
