@@ -1,6 +1,6 @@
 import React from "react";
-import logo from "./images/helmet.png";
-
+import logo from ".././images/helmet.png";
+import "../css/NavBar.css";
 export const NavBar = () => {
 	return (
 		<nav className="header_nav">
@@ -23,4 +23,3 @@ export const NavBar = () => {
 		</nav>
 	);
 };
-export default NavBar;
