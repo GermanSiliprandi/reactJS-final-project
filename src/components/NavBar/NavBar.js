@@ -1,6 +1,6 @@
 import React from "react";
 import logo from ".././images/helmet.png";
-import "../css/NavBar.css";
+import "./NavBar.css";
 export const NavBar = () => {
 	return (
 		<nav className="header_nav">
