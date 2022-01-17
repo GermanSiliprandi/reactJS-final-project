@@ -1,5 +1,6 @@
 import React from "react";
 import logo from ".././images/helmet.png";
+import { CartWidget } from "./CartWidget/CartWidget";
 import "./NavBar.css";
 export const NavBar = () => {
 	return (
@@ -19,6 +20,7 @@ export const NavBar = () => {
 					<a href="#">Mouse</a>
 				</li>
 			</ul>
+			<CartWidget />
 			<button>Log In</button>
 		</nav>
 	);

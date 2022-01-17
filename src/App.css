@@ -10,6 +10,9 @@
 	margin: 0px;
 	padding: 0px;
 }
+body {
+	font-family: "Roboto", sans-serif;
+}
 
 @media (prefers-reduced-motion: no-preference) {
 	.App-logo {

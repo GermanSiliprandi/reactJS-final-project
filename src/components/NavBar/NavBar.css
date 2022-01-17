@@ -25,6 +25,7 @@
 .header_nav p {
 	font-size: 10px;
 }
+
 .header_nav button {
 	background-color: rgb(244, 246, 255);
 	text-decoration: none;
@@ -39,16 +40,30 @@
 	transition: background-color 1s, color 1s;
 }
 .header_nav button:hover {
-	background-color: #1e2f50;
-	color: white;
+	background-color: #3a64b8;
+	color: rgb(244, 246, 255);
 }
 
 .App-header {
-	background-color: #1e2f50;
+	background-color: #3a64b8;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
-	color: white;
+	color: rgb(244, 246, 255);
 	height: 80px;
+}
+
+.cartWidget p {
+	display: inline-block;
+	margin-left: 10px;
+	vertical-align: top;
+	border-radius: 50%;
+	background-color: black;
+	text-align: center;
+	padding-top: 6px;
+	width: 30px;
+	height: 24px;
+	font-weight: bold;
+	font-size: 15px;
 }
