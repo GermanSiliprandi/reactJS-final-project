@@ -1,0 +1,25 @@
+{
+	"productos": [
+		{
+			"id": 0,
+			"name": "zapatillas",
+			"price": 1000,
+			"description": "Esta es la descripción",
+			"stock": 1000
+		},
+		{
+			"id": 1,
+			"name": "zapatillas",
+			"price": 1000,
+			"description": "Esta es la descripción",
+			"stock": 1000
+		},
+		{
+			"id": 2,
+			"name": "zapatillas",
+			"price": 1000,
+			"description": "Esta es la descripción",
+			"stock": 1000
+		}
+	]
+}

@@ -1,8 +1,8 @@
 import React from "react";
-export const ItemListContainer = () => {
+export const ItemListContainer = ({ text }) => {
 	return (
 		<>
-			<p>ITEM CONTAINER</p>
+			<p>{text}</p>
 		</>
 	);
 };
