@@ -5,13 +5,11 @@ export const ItemCount = ({ stock, initial, onAdd }) => {
 	const inc = () => {
 		if (stock > counter) {
 			setCounter(counter + 1);
-			console.log(`The Increase Counter is: ${counter}`);
 		}
 	};
 	const dec = () => {
 		if (counter > 0) {
 			setCounter(counter - 1);
-			console.log(`The Decrease Counter is: ${counter}`);
 		}
 	};
 
